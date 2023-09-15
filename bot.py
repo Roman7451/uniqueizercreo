@@ -148,5 +148,5 @@ def send_main_menu(chat_id):
     markup.add("🖼 Уникализировать картинку")
     bot.send_message(chat_id, "Чем я еще могу помочь? Посмотри на кнопки ниже и тыкай туда, куда нужно 😄", reply_markup=markup)
 
-
+keep_alive.keep_alive()
 bot.polling()
